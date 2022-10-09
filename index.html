@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="body">
+    <header class="header__flex">
+        <div class="header">
+            <h2 class="logo">snap</h2>
+            <button class="header__menu"><img src="./images/icon-menu.svg" alt="menu"></button>
+        </div>
+
+        <div class="nav__container">
+            <nav class="nav">
+                <div class="nav__seccion">
+                    <button class="nav__close"><img src="./images/icon-close-menu.svg" alt=""></button>
+                    <ul class="nav__ul">
+                        <li class="nav__ul__li nav__li__padding">
+                            Features
+                            <ul class="nav__ul__li__lu">
+                                <li class="nav__li__link">
+                                    <a class="nav__link" href="#"><img class="nav__svg__link" src="./images/icon-todo.svg" alt="nav__link"> Todo List</a>
+                                </li>
+                                <li class="nav__li__link">
+                                    <a class="nav__link" href="#"><img class="nav__svg__link" src="./images/icon-calendar.svg" alt="nav__link"> Calendar</a>
+                                </li>
+                                <li class="nav__li__link">
+                                    <a class="nav__link" href="#"><img class="nav__svg__link" src="./images/icon-reminders.svg" alt="nav__link"> Reminders</a>
+                                </li>
+                                <li class="nav__li__link">
+                                    <a class="nav__link" href="#"><img class="nav__svg__link" src="./images/icon-planning.svg" alt="nav__link"> Planning</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__ul__li nav__li__padding">
+                            Company
+                            <ul class="nav__ul__li__lu">
+                                <li class="nav__li__link">
+                                    <a class="nav__link" href="#">History</a>
+                                </li>
+                                <li class="nav__li__link">
+                                    <a class="nav__link" href="#">Our Team</a>
+                                </li>
+                                <li class="nav__li__link">
+                                    <a class="nav__link" href="#">Blog</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="nav__link nav__link__margin" href="#">Careers</a>
+                    <a class="nav__link nav__link__margin" href="#">About</a>
+                    <form class="form">
+                        <button class="form__btn login">Login</button>
+                        <button class="form__btn register">Register</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Main -->
+    <main class="container">
+        <div class="main">
+            <section class="seccion__text">
+                <h1 class="seccion__title"><span class="seccion__title__span">Make</span> remote work</h1>
+                <p class="seccion__paragraph">Get your team in sync, no matter your location Streamline processes, create team rituals, and watch productivity soar.</p>
+                <a class="section__text__link" href="#">Learn more</a>
+                <div class="section__container">
+                    <img src="./images/client-databiz.svg" alt="logo1">
+                    <img src="./images/client-audiophile.svg" alt="logo2">
+                    <img src="./images/client-meet.svg" alt="logo3">
+                    <img src="./images/client-maker.svg" alt="logo4">
+                </div>
+            </section>
+            <section class="seccion__img">
+                <img class="seccion__img__1" src="./images/image-hero-mobile.png" alt="Imagen Fondo">
+                <img class="seccion__img__2" src="./images/image-hero-desktop.png" alt="Imagen Fondo">
+            </section>
+        </div>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
